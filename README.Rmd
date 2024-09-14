@@ -18,8 +18,8 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-ontogenr calculates the relative activity of drug metabolizing enzymes and
-drug transporter proteins for a given age.
+ontogenr provides functions to calculate the relative activity of drug
+metabolizing enzymes and drug transporter proteins for a given age.
 
 ## Installation
 
@@ -31,9 +31,9 @@ devtools::install_github("rstrotmann/ontogenr")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Plot ontogenetic profiles for some CYP enzymes:
 
-```{r example, message = FALSE, warning = FALSE}
+```{r example, message = FALSE, warning = FALSE, fig.width=4, fig.height=2}
 library(tidyverse)
 library(ontogenr)
 
